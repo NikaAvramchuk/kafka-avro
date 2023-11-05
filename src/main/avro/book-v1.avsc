@@ -1,0 +1,17 @@
+{
+  "namespace": "com.example.kafkaavro",
+  "type": "record",
+  "name": "Book",
+  "version": 1,
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name": "year",
+      "type": "int"
+    }
+  ]
+}
